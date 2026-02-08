@@ -19,7 +19,7 @@ function useHashRouter() {
 // ─────────────────────────────────────────────
 // FONTS & GLOBAL STYLES
 // ─────────────────────────────────────────────
-const fontLink = (() => {
+(() => {
   if (typeof document !== "undefined") {
     const l = document.createElement("link");
     l.href =
